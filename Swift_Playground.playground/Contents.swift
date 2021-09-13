@@ -88,4 +88,28 @@ let piDouble2: Double = 3.1415959595
 var numberAleatory: Float = 3.123456789365656
 let numberAleatory2: Float = 6.3161666645454545
 
+// MARK: - Operadores Aritméticos
 
+var a = 11
+var b = 20
+a + b
+a - b
+a * b
+a / b
+
+var c = a + b
+
+// Operadores Módulo
+a % 2
+
+if a % 2 == 0 {
+    print("Numero par")
+} else {
+    print("Numero Impar")
+}
+
+//Operandos e Assinalando
+a += b
+a *= 10
+a -= 10
+a /= 2
