@@ -33,7 +33,10 @@ print("O primeiro número é: \(number1)\nO segundo número é: \(number2)\nA so
 // MARK: - Exercises
 var city = "Guarulhos"
 var year = 1994
+var yearConvert = String(year)
 
 print("Eu nasci na cidade de \(city) no ano de \(year)")
 print("Eu nasci na cidade de " + city + " no ano de " + String(year))
+print("Eu nasci na cidade de " + city + " no ano de " + yearConvert)
 
+// MARK: - Data Types
