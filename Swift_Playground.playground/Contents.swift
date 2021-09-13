@@ -40,3 +40,26 @@ print("Eu nasci na cidade de " + city + " no ano de " + String(year))
 print("Eu nasci na cidade de " + city + " no ano de " + yearConvert)
 
 // MARK: - Data Types
+
+///////////////   Implicito
+//String
+var dog = "Pit Bull"
+//Double
+var tempeture = 36.5
+// Int
+var number10 = 10
+//Bool
+var isOn = true
+
+///////////////////    Explicito
+//String
+var cat: String = "Leonardo"
+// Inteiro
+var ageCat: Int = 3
+//Float
+var priceDolar: Float = 5.6
+// Boolean
+var isPower: Bool = false
+
+
+
