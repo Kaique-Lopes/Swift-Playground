@@ -29,3 +29,11 @@ print(age + number1)
 
 // MARK: - Concatenação & Interpolação
 print("O primeiro número é: \(number1)\nO segundo número é: \(number2)\nA soma dos dois números é: \(number1 + number2)")
+
+// MARK: - Exercises
+var city = "Guarulhos"
+var year = 1994
+
+print("Eu nasci na cidade de \(city) no ano de \(year)")
+print("Eu nasci na cidade de " + city + " no ano de " + String(year))
+
