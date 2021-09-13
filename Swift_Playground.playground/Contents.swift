@@ -18,7 +18,14 @@ var brand = "Nike"
 print(brand)
 
 // MARK: - Integer
-var number = 10
+var number1 = 10
+var number2 = 40
 
 // MARK: - Interpolation
-print("Tenho um tênis da Marca \(brand) do tamanho \(number)cm")
+print("Tenho um tênis da Marca \(brand) do tamanho \(number1)cm")
+
+// MARK: - Concatenação
+print(age + number1)
+
+// MARK: - Concatenação & Interpolação
+print("O primeiro número é: \(number1)\nO segundo número é: \(number2)\nA soma dos dois números é: \(number1 + number2)")
