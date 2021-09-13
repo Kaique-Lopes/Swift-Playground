@@ -19,3 +19,6 @@ print(brand)
 
 // MARK: - Integer
 var number = 10
+
+// MARK: - Interpolation
+print("Tenho um tênis da Marca \(brand) do tamanho \(number)cm")
