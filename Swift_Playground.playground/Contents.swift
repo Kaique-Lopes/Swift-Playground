@@ -234,3 +234,26 @@ if dogAge >= 3 {
 } else {
     print("\(nameDog) é um filhote ainda")
 }
+//Exercicio
+
+var treinaAcademia: Bool = true
+
+var tempoAcademia: Int = 3
+
+var tomaDanone: Bool = false
+
+if treinaAcademia {
+    if tempoAcademia >= 2 {
+        print("Parabéns, voce treina pesado e já pode tomar as Paradinhas!")
+        if tomaDanone{
+            print("Tá tomando as paradinha né! Cuidadooooo")
+        } else {
+            print("Booooa garoto! Continue Natural!")
+        }
+    } else {
+        print("Volte quando tiver ao menos 2 anos de Treinos Pesados!")
+    }
+} else {
+    print("Comece a treinar Frango!")
+}
+
