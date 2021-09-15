@@ -120,3 +120,10 @@ var peso = 10
 var altura = 1.44
 
 peso * Int(altura)
+
+//Arrays
+
+var musicas: Array = ["Samba", "Rock", "Funk", "Gospel"]
+musicas.append("Pagode")
+print(musicas.count)
+print(musicas.last)
