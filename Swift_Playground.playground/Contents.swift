@@ -188,5 +188,33 @@ arrayExerc.firstIndex(of: "Kaique")
 var ageHuman: Int = 27
 var nameHuman: String = "Kaique"
 var male: Bool = true
+var age18: Bool = true
+
+//if
+if age18 {
+    print("\(nameHuman) é maior de idade e pode tirar carteira de motorista")
+}
+print("\(nameHuman) é um programador iOS")
 
 
+var numero1 = 21
+var numero2 = 20
+numero1 <= numero2
+
+var diaPagamento: Bool = true
+var valorPagamento: Int = 4000
+
+var dinheiroCarteira : Int = 0
+var valorTV: Int = 1000
+var valorCelular: Int = 1500
+
+if diaPagamento {
+    dinheiroCarteira += valorPagamento
+}
+
+if dinheiroCarteira >= 300 {
+    dinheiroCarteira -= valorTV
+    dinheiroCarteira -= valorCelular
+    
+    print("Comprar uma televisão no valor de \(valorTV) e celular no valor de R$\(valorCelular) ficar com o saldo de \(dinheiroCarteira)")
+}
