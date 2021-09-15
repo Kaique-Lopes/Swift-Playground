@@ -166,3 +166,18 @@ citysArrays.reverse()
 citysArrays
 citysArrays.contains("Alagoas")
 citysArrays.firstIndex(of: "Zimbabue")
+
+var arrayExerc : [String] = ["Kaique", "Ana", "Lucas", "William", "Marcos"]
+
+arrayExerc.first
+arrayExerc.last
+
+arrayExerc[4] = "Marcos Barbosa"
+
+arrayExerc.remove(at: 3)
+
+arrayExerc.insert("Maria Luiza", at: 1)
+
+arrayExerc.contains("Kaique")
+
+arrayExerc.firstIndex(of: "Kaique")
