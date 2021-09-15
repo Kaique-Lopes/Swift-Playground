@@ -143,3 +143,7 @@ exercArray.append(5)
 exercArray.append(6)
 exercArray.count
 exercArray.append(Double(exercArray.count))
+
+var citysArrays = ["Guarulhos", "São Paulo", "Itaquaquecetuba", "Mogi das Cruzes"]
+citysArrays.first
+citysArrays.last
