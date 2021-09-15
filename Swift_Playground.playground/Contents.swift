@@ -224,3 +224,13 @@ if dinheiroCarteira >= 300 {
     
     print("Comprar uma televisão no valor de \(valorTV) e celular no valor de R$\(valorCelular) ficar com o saldo de \(dinheiroCarteira)")
 }
+
+// MARK: - If & Else
+var nameDog = "Darkness"
+var dogAge = 3
+
+if dogAge >= 3 {
+    print("\(nameDog) tem \(dogAge) anos e é um cachorro adulto")
+} else {
+    print("\(nameDog) é um filhote ainda")
+}
