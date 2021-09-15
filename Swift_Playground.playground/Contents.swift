@@ -201,6 +201,8 @@ var numero1 = 21
 var numero2 = 20
 numero1 <= numero2
 
+var contaUser: String = "Kaique Lopes de Oliveira"
+
 var diaPagamento: Bool = true
 var valorPagamento: Int = 4000
 
@@ -213,6 +215,10 @@ if diaPagamento {
 }
 
 if dinheiroCarteira >= 300 {
+    if contaUser == "Kaique Lopes de Oliveira" {
+        
+    }
+    
     dinheiroCarteira -= valorTV
     dinheiroCarteira -= valorCelular
     
