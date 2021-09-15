@@ -113,3 +113,10 @@ a += b
 a *= 10
 a -= 10
 a /= 2
+
+//Tipos Numéricos
+
+var peso = 10
+var altura = 1.44
+
+peso * Int(altura)
