@@ -172,7 +172,7 @@ var arrayExerc : [String] = ["Kaique", "Ana", "Lucas", "William", "Marcos"]
 arrayExerc.first
 arrayExerc.last
 
-arrayExerc[4] = "Marcos Barbosa"
+arrayExerc[3] = "Marcos Barbosa"
 
 arrayExerc.remove(at: 3)
 
@@ -181,3 +181,12 @@ arrayExerc.insert("Maria Luiza", at: 1)
 arrayExerc.contains("Kaique")
 
 arrayExerc.firstIndex(of: "Kaique")
+
+// MARK: - Condicionais
+// Booleans
+
+var ageHuman: Int = 27
+var nameHuman: String = "Kaique"
+var male: Bool = true
+
+
