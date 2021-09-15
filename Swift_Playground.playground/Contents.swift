@@ -124,6 +124,14 @@ peso * Int(altura)
 //Arrays
 
 var musicas: Array = ["Samba", "Rock", "Funk", "Gospel"]
+var ouvindoLouvor: Bool = true
+
+if ouvindoLouvor != false {
+    print(musicas.last)
+} else {
+    print(musicas.first)
+}
+
 musicas.append("Pagode")
 print(musicas.count)
 print(musicas.last)
