@@ -256,4 +256,20 @@ if treinaAcademia {
 } else {
     print("Comece a treinar Frango!")
 }
+// MARK: - Operadores && ||
+
+var priceEuro: Double = 15.5
+
+if priceEuro >= 6 && priceEuro <= 8.5 {
+    print("Valor de Euro para compra")
+} else {
+    print("Valor de Euro Para Revenda")
+}
+
+
+if priceEuro >= 5 || priceEuro >= 15 {
+    print("valor de euro para compra2")
+} else {
+    print("Valor de Euro para revenda2")
+}
 
