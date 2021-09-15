@@ -164,3 +164,5 @@ citysArrays.remove(at: 6)
 citysArrays
 citysArrays.reverse()
 citysArrays
+citysArrays.contains("Alagoas")
+citysArrays.firstIndex(of: "Zimbabue")
