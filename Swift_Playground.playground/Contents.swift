@@ -135,3 +135,11 @@ if ouvindoLouvor != false {
 musicas.append("Pagode")
 print(musicas.count)
 print(musicas.last)
+//Exercises Array
+
+var exercArray: [Double] = [ 10.0, 11.5, 2.4, 75.4, 5.00 ]
+exercArray.append(11)
+exercArray.append(5)
+exercArray.append(6)
+exercArray.count
+exercArray.append(Double(exercArray.count))
