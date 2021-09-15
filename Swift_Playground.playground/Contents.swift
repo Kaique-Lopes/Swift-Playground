@@ -154,3 +154,13 @@ citysArrays[3]
 citysArrays[citysArrays.count - 1]
 citysArrays[1] = "Pimentas"
 citysArrays
+
+citysArrays.insert("Brasilia", at: 2)
+citysArrays.insert("Alagoas", at: 4)
+citysArrays.insert("Zimbabue", at: 0)
+citysArrays
+citysArrays.sorted()
+citysArrays.remove(at: 6)
+citysArrays
+citysArrays.reverse()
+citysArrays
