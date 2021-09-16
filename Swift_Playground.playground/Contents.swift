@@ -474,3 +474,20 @@ var lista = [20, 12, 19]
 
 retornaValores(lista: lista, condicao: menorQue10)
 retornaValores(lista: lista, condicao: numero1e10)
+
+
+//Funcoes
+
+func informations() {
+    let name = "Kaique"
+    let age = 27
+    let lastName = "Lopes"
+    
+    print("Olá, meu nome é \(name), tenho \(age) anos e meu sobrenome é \(lastName)")
+}
+informations()
+
+func informations2(name: String, age: Int, lastName: String) {
+    print("Olá, meu nome é \(name), tenho \(age) anos e meu sobrenome é \(lastName)")
+}
+informations2(name: "Juca", age: 13, lastName: "Oliveira")
