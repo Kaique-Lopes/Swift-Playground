@@ -404,6 +404,14 @@ for diasDoMes in 1...31 {
     print("Dias do Mês: \(diasDoMes)")
 }
 
+//Loops & Arrays
+
+var nomes: [String] = ["Lucas", "Carlos", "Julia", "Pedro", "Luiz", "Kaique"]
+
+for nome in nomes {
+    print("O nome escolhido é \(nome)")
+}
+
 // MARK: - Functions
 func countryNames ( _ ida: String, _ chegada: String) -> String {
     return "Voce está saindo de \(ida) com destino \(chegada)"
