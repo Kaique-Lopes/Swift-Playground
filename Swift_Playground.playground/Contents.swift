@@ -422,6 +422,27 @@ for number in 1...10 {
     print("O numero \(number)*\(number) é: \(number*number)")
 }
 
+var cores: [String] = ["Azul", "Amarelo", "Preto", "Branco", "Verde", "Rosa"]
+
+for cor in cores {
+    print(cor)
+}
+
+//While Loops
+
+var numeroDePizza = 5
+
+while numeroDePizza <= 10 {
+    numeroDePizza += 1
+    print(numeroDePizza)
+}
+ 
+while numeroDePizza <= 5000 {
+    print(numeroDePizza)
+    numeroDePizza *= 5
+}
+
+
 // MARK: - Functions
 func countryNames ( _ ida: String, _ chegada: String) -> String {
     return "Voce está saindo de \(ida) com destino \(chegada)"
