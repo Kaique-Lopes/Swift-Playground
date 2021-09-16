@@ -398,6 +398,11 @@ default:
     print("Piscina Olimpica")
 }
 
+// MARK: - For Loops
+
+for diasDoMes in 1...31 {
+    print("Dias do Mês: \(diasDoMes)")
+}
 
 // MARK: - Functions
 func countryNames ( _ ida: String, _ chegada: String) -> String {
