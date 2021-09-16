@@ -412,6 +412,16 @@ for nome in nomes {
     print("O nome escolhido é \(nome)")
 }
 
+var programar = "Programar é Demais"
+
+for _ in 1...5 {
+    print(programar)
+}
+var numberM = 2
+for number in 1...10 {
+    print("O numero \(number)*\(number) é: \(number*number)")
+}
+
 // MARK: - Functions
 func countryNames ( _ ida: String, _ chegada: String) -> String {
     return "Voce está saindo de \(ida) com destino \(chegada)"
