@@ -280,3 +280,26 @@ func countryNames ( _ ida: String, _ chegada: String) -> String {
 //countryNames(partida: "ss", "dd")
 //countryNames(partida: <#T##String#>, <#T##chegada: String##String#>)
 countryNames("x", "y")
+
+func retornaValores(lista: [Int], condicao: (Int) -> Bool) -> Bool {
+    for item in lista {
+        if condicao(item) {
+            return true
+        }
+          
+    }
+    return false
+}
+
+func numero1e10 (number: Int) -> Bool {
+    number >= 1 && number <= 10
+}
+
+func menorQue10 (number: Int) -> Bool {
+    number < 10
+}
+
+var lista = [20, 12, 19]
+
+retornaValores(lista: lista, condicao: menorQue10)
+retornaValores(lista: lista, condicao: numero1e10)
