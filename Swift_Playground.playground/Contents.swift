@@ -272,4 +272,11 @@ if priceEuro >= 5 || priceEuro >= 15 {
 } else {
     print("Valor de Euro para revenda2")
 }
-
+// MARK: - Functions
+func countryNames ( _ ida: String, _ chegada: String) -> String {
+    return "Voce está saindo de \(ida) com destino \(chegada)"
+}
+//countryNames(partida: "Brasil", destino: "Londres")
+//countryNames(partida: "ss", "dd")
+//countryNames(partida: <#T##String#>, <#T##chegada: String##String#>)
+countryNames("x", "y")
