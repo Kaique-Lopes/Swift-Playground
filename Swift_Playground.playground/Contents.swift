@@ -346,6 +346,18 @@ case false:
     print("Luz Apagada")
 }
 
+var celsius: Float = 25.5
+
+switch celsius {
+
+case 0..<5:
+    print("Frio")
+case 5...10:
+    print("Tempo agradavel")
+default:
+    print("Tempo Muito Quente")
+}
+
 
 // MARK: - Functions
 func countryNames ( _ ida: String, _ chegada: String) -> String {
