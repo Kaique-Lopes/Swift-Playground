@@ -225,7 +225,7 @@ if dinheiroCarteira >= 300 {
     print("Comprar uma televisão no valor de \(valorTV) e celular no valor de R$\(valorCelular) ficar com o saldo de \(dinheiroCarteira)")
 }
 // MARK: - Else & If
-var pesoLutador: Float = 79.8
+var pesoLutador: Float = 78.5
 
 if pesoLutador <= 56.7 {
     print("Peso Mosca")
@@ -243,6 +243,38 @@ if pesoLutador <= 56.7 {
     print("Peso Meio-Pesado")
 } else {
     print("Peso Pesado")
+}
+
+var temperaturaDoDia: Float = 39
+
+if temperaturaDoDia <= 0 {
+    print("Frio Pra cacete")
+} else if temperaturaDoDia <= 5 {
+    print("Está muito frio")
+} else if temperaturaDoDia <= 10 {
+    print("Está frio")
+} else if temperaturaDoDia <= 15 {
+    print("Está um tempo agradável")
+} else if temperaturaDoDia <= 25 {
+    print("Está um calorzinho")
+} else if temperaturaDoDia <= 30 {
+    print("Está Calor, bora pra praia!!!")
+} else if temperaturaDoDia <= 35 {
+    print("Está muito calor !!! Meu Deus do Céu !!! ")
+} else {
+    print("Eitaaaaaa Calor insuportável vamos fritar !!! ")
+}
+
+var idadeCrianca: Int = 5
+var pesoCrianca: Float = 60
+var alturaCrianca: Float = 100
+
+if idadeCrianca >= 7 && pesoCrianca >= 40 && alturaCrianca >= 100 {
+    print("Criança Liberada para ir no Toboágua")
+} else if pesoCrianca >= 60 || alturaCrianca >= 120 {
+    print("Criança Liberada para ir no Toboágua")
+} else {
+    print("Criança não corresponde aos requisitos mínimos de segurança!")
 }
 
 // MARK: - If & Else
@@ -292,6 +324,29 @@ if priceEuro >= 5 || priceEuro >= 15 {
 } else {
     print("Valor de Euro para revenda2")
 }
+
+// MARK: - Switch
+var letras = "w"
+
+switch letras {
+case "a":
+    print("Primeira Letra do Alfabeto")
+case "z":
+    print("Ultima letra do Alfabeto")
+default:
+    print("Nenhuma das opções anteriores")
+}
+
+var luzLigada = true
+
+switch luzLigada {
+case true:
+    print("Luz Ligada")
+case false:
+    print("Luz Apagada")
+}
+
+
 // MARK: - Functions
 func countryNames ( _ ida: String, _ chegada: String) -> String {
     return "Voce está saindo de \(ida) com destino \(chegada)"
