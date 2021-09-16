@@ -225,7 +225,7 @@ if dinheiroCarteira >= 300 {
     print("Comprar uma televisão no valor de \(valorTV) e celular no valor de R$\(valorCelular) ficar com o saldo de \(dinheiroCarteira)")
 }
 // MARK: - Else & If
-var pesoLutador: Float = 55
+var pesoLutador: Float = 79.8
 
 if pesoLutador <= 56.7 {
     print("Peso Mosca")
@@ -244,11 +244,6 @@ if pesoLutador <= 56.7 {
 } else {
     print("Peso Pesado")
 }
-
-
-
-
-
 
 // MARK: - If & Else
 var nameDog = "Darkness"
