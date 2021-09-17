@@ -499,3 +499,8 @@ func sum(_ a: Int, _ b: Int) -> Int {
     return a + b
 }
 sum(1, 5)
+
+func divs(_ a: Int, _ b: Int) -> Int {
+    a / b
+}
+divs(10, 2)
