@@ -519,4 +519,63 @@ func orangeJuice(_ oranges: Double) -> Float{
     
     return qtdOranges
 }
-orangeJuice(0.1)
+orangeJuice(5)
+
+// MARK: - Tuplas
+var person = (age: 25, hair: "Ruiva", eye: "Castanhos")
+print(person.age)
+
+enum Hair {
+    case ruivo
+    case castanho
+    case loiro
+    case cacheado
+}
+
+enum Eye {
+    case azuis
+    case pretos
+    case verdes
+}
+
+enum Sex {
+    case masculino
+    case feminino
+}
+
+var persona : (age: UInt, hair: Hair, eyes: Eye, height: Float, sex: Sex)
+
+func personTuples(person: (name: String, age: UInt, hair: Hair, eyes: Eye, height: Float, sex: Sex)) {
+    print(person.name)
+}
+
+var numerosTupla : (a: Int, b: Int, c: Int, d: Int) = (4,6,5,10)
+
+func calcTupla ( numeros: (a: Int, b: Int, c: Int, d: Int)) -> (result1: Int, result2: Int){
+    
+    let result1 = numeros.a + numeros.b
+    let result2 = numeros.c * numeros.d
+    
+    let resultado: (result1: Int, result2: Int) = (result1, result2)
+    
+    return resultado
+    
+}
+/*
+var calculoTuplas = calcTupla(numeros: numerosTupla)
+print("A soma é: \(calculoTuplas.result1)\n\nA multiplicação é: \(calculoTuplas.result2)")
+*/
+
+var anoDados: (anoAtual: Int, idade: Int) = (27, 2021)
+
+func calcAnoNascimento (dadosNascimento: (anoAtual: Int, idade: Int)) -> (Int){
+    
+     let result = dadosNascimento.idade - dadosNascimento.anoAtual
+     
+     let resultaFinal = result
+     
+     return resultaFinal
+}
+
+var kaiqueAno = calcAnoNascimento(dadosNascimento: anoDados)
+print(kaiqueAno)
