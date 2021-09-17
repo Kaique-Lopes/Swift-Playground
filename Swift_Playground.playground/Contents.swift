@@ -504,3 +504,9 @@ func divs(_ a: Int, _ b: Int) -> Int {
     a / b
 }
 divs(10, 2)
+
+func sumDecimalsNumbers(_ a: Float, _ b: Int, _ c: Double) -> Double {
+    Double(a) + Double(b) + c
+}
+
+sumDecimalsNumbers(13.1, 1, 1.1)
