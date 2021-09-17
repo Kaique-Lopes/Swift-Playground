@@ -510,3 +510,13 @@ func sumDecimalsNumbers(_ a: Float, _ b: Int, _ c: Double) -> Double {
 }
 
 sumDecimalsNumbers(13.1, 1, 1.1)
+
+func orangeJuice(_ oranges: Double) -> Float{
+    
+    let orangePerLiter = 20
+    
+    let qtdOranges = Float(Double(orangePerLiter) * oranges)
+    
+    return qtdOranges
+}
+orangeJuice(0.1)
