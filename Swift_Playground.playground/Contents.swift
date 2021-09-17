@@ -453,6 +453,7 @@ func countryNames ( _ ida: String, _ chegada: String) -> String {
 countryNames("x", "y")
 
 func retornaValores(lista: [Int], condicao: (Int) -> Bool) -> Bool {
+    
     for item in lista {
         if condicao(item) {
             return true
@@ -487,7 +488,14 @@ func informations() {
 }
 informations()
 
-func informations2(name: String, age: Int, lastName: String) {
+func informations2(_ name: String, _ age: Int, _ lastName: String) {
     print("Olá, meu nome é \(name), tenho \(age) anos e meu sobrenome é \(lastName)")
 }
-informations2(name: "Juca", age: 13, lastName: "Oliveira")
+
+informations2("Pedro", 25, "Souza")
+// Functions With Return
+
+func sum(_ a: Int, _ b: Int) -> Int {
+    return a + b
+}
+sum(1, 5)
