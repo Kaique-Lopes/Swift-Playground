@@ -579,3 +579,26 @@ func calcAnoNascimento (dadosNascimento: (anoAtual: Int, idade: Int)) -> (Int){
 
 var kaiqueAno = calcAnoNascimento(dadosNascimento: anoDados)
 print(kaiqueAno)
+
+
+// MARK: - Orientação a Objetos
+
+import UIKit
+
+//let usernameField = UITextField()
+//let button = UIButton()
+// Classes
+
+class User {
+    var name: String?
+    var age: UInt?
+    var photo: String?
+}
+
+let userA = User()
+
+let userB = User()
+
+let userC = User()
+
+
