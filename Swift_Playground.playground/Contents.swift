@@ -1,6 +1,6 @@
 import UIKit
 // MARK: - Variaveis
-
+/*
 var name = "Kaique Lopes"
 var lastName = "Oliveira"
 var age = 27
@@ -615,9 +615,22 @@ let userB = User(name: "Joao", age: 11, photo: "Bahia", yearActual: 2021)
 let userC = User(name: "Lucas", age: 15, photo: "Ceará", yearActual: 2021)
  
 userA.login()
-
+*/
 // MARK: - Optionals
 
-var ageChildren: Int?
+var ageChildren: Int? = 55
+print(ageChildren)
+
+if ageChildren != nil {
+    print("Tem Valor")
+} else {
+    print("Nao Tem Valor")
+}
 
 
+//Optional Binding
+
+var horaAventura: String? = "Hora de Aventura"
+print(horaAventura)
+
+horaAventura?.uppercased()
