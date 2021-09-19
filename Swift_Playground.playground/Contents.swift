@@ -630,7 +630,23 @@ if ageChildren != nil {
 
 //Optional Binding
 
-var horaAventura: String? = "Hora de Aventura"
-print(horaAventura)
+var nameString: String? = "Kaique Lopes"
+nameString?.uppercased()
 
-horaAventura?.uppercased()
+if let name = nameString {
+    print(name)
+} else {
+    print("Não existe valor !")
+}
+
+var numeros: [Int] = [5,6,7,8]
+
+for num in numeros {
+    print(num)
+}
+
+
+
+
+
+
