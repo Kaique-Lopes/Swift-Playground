@@ -581,6 +581,7 @@ var kaiqueAno = calcAnoNascimento(dadosNascimento: anoDados)
 //print(kaiqueAno)
 
 
+
 // MARK: - Orientação a Objetos
 
 import UIKit
@@ -614,4 +615,9 @@ let userB = User(name: "Joao", age: 11, photo: "Bahia", yearActual: 2021)
 let userC = User(name: "Lucas", age: 15, photo: "Ceará", yearActual: 2021)
  
 userA.login()
+
+// MARK: - Optionals
+
+var ageChildren: Int?
+
 
