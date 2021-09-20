@@ -619,7 +619,6 @@ userA.login()
 // MARK: - Optionals
 
 var ageChildren: Int? = 55
-print(ageChildren)
 
 if ageChildren != nil {
     print("Tem Valor")
@@ -646,7 +645,13 @@ for num in numeros {
 }
 
 
+var numOptionals: Int? = 25
 
+var numOptionals2: Int = 100
+
+func multOptionals(a: Int?, b: Int) -> Int {
+    
+}
 
 
 
