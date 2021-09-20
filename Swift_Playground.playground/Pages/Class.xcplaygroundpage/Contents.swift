@@ -10,8 +10,14 @@ class Mesa {
     
     var numeroDePernas = 4
     
-    func mesa(msg: String) {
-        print(msg)
+    var areaMesa : Double {
+        let areaCalculada : Double = Double(largura)/100 * Double(comprimento)/100
+        return areaCalculada
+    }
+    
+    func calularVolume(area: Double, alturaP: Int) -> Double {
+        let volume = area * Double(alturaP)
+        return volume
     }
 }
 
@@ -21,11 +27,14 @@ mesaDaSala.cor = "Azul"
 mesaDaSala.numeroDePernas = 8
 mesaDaSala.largura = 300
 mesaDaSala.comprimento = 500
+mesaDaSala.areaMesa
 
 var mesaQuarto = Mesa()
 mesaQuarto.cor = "Preto"
 mesaQuarto.numeroDePernas = 4
-mesaQuarto.mesa(msg: "Coloque os pratos")
+mesaQuarto.largura = 100
+mesaQuarto.comprimento = 60
+mesaQuarto.areaMesa
 mesaQuarto.cor
 
 var colecaoDeMesas: [Mesa] = [mesaDaSala, mesaQuarto]
@@ -62,3 +71,5 @@ let userB = User(name: "Joao", age: 11, photo: "Bahia", yearActual: 2021)
 let userC = User(name: "Lucas", age: 15, photo: "Ceará", yearActual: 2021)
  
 userA.login()
+
+

@@ -10,5 +10,6 @@
         <page name='Switch'/>
         <page name='For Loops'/>
         <page name='Functions'/>
+        <page name='Optionals'/>
     </pages>
 </playground>
