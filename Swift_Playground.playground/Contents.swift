@@ -667,10 +667,11 @@ class Mesa {
     
     var numeroDePernas = 4
     
-    func mesa(){
-        print("Coloque algo na Mesa")
+    func mesa(msg: String) {
+        print(msg)
     }
 }
+
 
 var mesaDaSala = Mesa()
 mesaDaSala.cor = "Azul"
@@ -681,9 +682,14 @@ mesaDaSala.comprimento = 500
 var mesaQuarto = Mesa()
 mesaQuarto.cor = "Preto"
 mesaQuarto.numeroDePernas = 4
+mesaQuarto.mesa(msg: "Coloque os pratos")
+mesaQuarto.cor
 
+var colecaoDeMesas: [Mesa] = [mesaDaSala, mesaQuarto]
 
-
+for mesa in colecaoDeMesas {
+    print(mesa.cor)
+}
 
 
 
