@@ -615,7 +615,7 @@ let userB = User(name: "Joao", age: 11, photo: "Bahia", yearActual: 2021)
 let userC = User(name: "Lucas", age: 15, photo: "Ceará", yearActual: 2021)
  
 userA.login()
-*/
+
 // MARK: - Optionals
 
 var ageChildren: Int? = 55
@@ -656,6 +656,36 @@ func multOptionals(a: Int?, b: Int) {
         print("Valor nil")
     }
 }
+
 multOptionals(a: numOptionals, b: numOptionals2)
+*/
+class Mesa {
+    var cor = "Rosa"
+    var altura = 80
+    var largura = 0
+    var comprimento = 0
+    
+    var numeroDePernas = 4
+    
+    func mesa(){
+        print("Coloque algo na Mesa")
+    }
+}
+
+var mesaDaSala = Mesa()
+mesaDaSala.cor = "Azul"
+mesaDaSala.numeroDePernas = 8
+mesaDaSala.largura = 300
+mesaDaSala.comprimento = 500
+
+var mesaQuarto = Mesa()
+mesaQuarto.cor = "Preto"
+mesaQuarto.numeroDePernas = 4
+
+
+
+
+
+
 
 
