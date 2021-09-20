@@ -16,28 +16,22 @@ class Mesa {
     }
     
     func calularVolume(area: Double, alturaP: Int) -> Double {
-        let volume = area * Double(alturaP)
+        let volume = area * Double(alturaP) / 100
         return volume
     }
 }
 
 
 var mesaDaSala = Mesa()
-mesaDaSala.cor = "Azul"
+
 mesaDaSala.numeroDePernas = 8
+mesaDaSala.altura = 80
 mesaDaSala.largura = 300
 mesaDaSala.comprimento = 500
 mesaDaSala.areaMesa
+mesaDaSala.calularVolume(area: mesaDaSala.areaMesa, alturaP: mesaDaSala.altura)
 
-var mesaQuarto = Mesa()
-mesaQuarto.cor = "Preto"
-mesaQuarto.numeroDePernas = 4
-mesaQuarto.largura = 100
-mesaQuarto.comprimento = 60
-mesaQuarto.areaMesa
-mesaQuarto.cor
-
-var colecaoDeMesas: [Mesa] = [mesaDaSala, mesaQuarto]
+var colecaoDeMesas: [Mesa] = [mesaDaSala]
 
 for mesa in colecaoDeMesas {
     print(mesa.cor)
@@ -72,4 +66,20 @@ let userC = User(name: "Lucas", age: 15, photo: "Ceará", yearActual: 2021)
  
 userA.login()
 
+class Car {
+    var brand = String()
+    var model = String()
+    var speedMax = Int()
+    var type = String()
+    
+    init(brand: String, model: String, speedMax: Int, type: String) {
+        self.brand = brand
+        self.model = model
+        self.speedMax = speedMax
+        self.type = type
+    }
+}
 
+var fusca = Car(brand: "Fusca", model: "Volks", speedMax: 10, type: "Ret")
+
+print(fusca.brand)
