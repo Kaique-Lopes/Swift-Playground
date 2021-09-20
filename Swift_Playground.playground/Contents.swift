@@ -649,9 +649,13 @@ var numOptionals: Int? = 25
 
 var numOptionals2: Int = 100
 
-func multOptionals(a: Int?, b: Int) -> Int {
-    
+func multOptionals(a: Int?, b: Int) {
+    if let numA = a {
+        print(numA * b)
+    } else {
+        print("Valor nil")
+    }
 }
-
+multOptionals(a: numOptionals, b: numOptionals2)
 
 
