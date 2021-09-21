@@ -81,5 +81,34 @@ class Car {
 }
 
 var fusca = Car(brand: "Fusca", model: "Volks", speedMax: 10, type: "Ret")
-
+fusca.brand = "Gol Bola"
 print(fusca.brand)
+
+
+class Movie {
+    var name = String()
+    var date =  Int()
+    
+    var ageFilm : Int {
+        let ageFilme = 2021 - date
+        return ageFilme
+    }
+    
+    func informations(name: String, date: Int, dateLife: Int) {
+        print("O filme \(name), estreou em \(date) e hoje tem \(dateLife) anos da sua estreia")
+    }
+    
+    init() {
+        
+    }
+    
+    init(name: String, date: Int) {
+        self.name = name
+        self.date = date
+    }
+}
+
+var matrix = Movie(name: "Matrix", date: 1980)
+matrix.informations(name: matrix.name, date: matrix.date, dateLife: matrix.ageFilm)
+
+
