@@ -85,7 +85,7 @@ fusca.brand = "Gol Bola"
 print(fusca.brand)
 
 
-class Movie {
+struct Movie {
     var name = String()
     var date =  Int()
     
@@ -114,4 +114,12 @@ matrix.informations(name: matrix.name, date: matrix.date, dateLife: matrix.ageFi
 
 // MARK: - Structs
 
+var laCasaDePapel = Movie()
 
+var laCasaDePapelPirata = laCasaDePapel
+ 
+laCasaDePapel.name = "La Casa de Papel"
+print(laCasaDePapel.name)
+
+laCasaDePapelPirata.name = "La Casa de Papel Pirata"
+print(laCasaDePapelPirata.name)
