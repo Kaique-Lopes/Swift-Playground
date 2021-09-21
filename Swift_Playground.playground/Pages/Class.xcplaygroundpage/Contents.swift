@@ -164,15 +164,26 @@ brasileiro.retornaInfo()
 class Animal {
     var name = String()
     var idade : Int = 0
+    
+    func descricao() {
+        print("Sou um animal")
+    }
 }
 
 class Bird : Animal {
     var asas = 0
+    
+    override func descricao() {
+        print("Sou um Bird")
+    }
 }
 
-class Galinha {
+class Galinha : Bird {
     var patas = 0
     
+    override func descricao() {
+        print("Sou uma Galinha")
+    }
 }
 
 
@@ -184,4 +195,9 @@ papagaio.asas
 
 
 
+var piriquito = Bird()
+piriquito.descricao()
 
+var galo = Galinha()
+
+galo.descricao()
