@@ -165,24 +165,22 @@ class Animal {
     var name = String()
     var idade : Int = 0
     
-    func descricao() {
-        print("Sou um animal")
+    func descricao() -> String {
+        "Sou um animal"
     }
 }
 
 class Bird : Animal {
     var asas = 0
-    
-    override func descricao() {
-        print("Sou um Bird")
+    override func descricao() -> String {
+        return "\(super.descricao()) / Ave"
     }
 }
 
 class Galinha : Bird {
     var patas = 0
-    
-    override func descricao() {
-        print("Sou uma Galinha")
+    override func descricao() -> String {
+        return "\(super.descricao()) / Galinha"
     }
 }
 
