@@ -151,8 +151,12 @@ class Brasileiro {
         self.naturalidade = naturalidade
     }
     
-    func retornaInfo(name: String, idade: Int, orientaçãoMotora: OrientaçãoMotora, naturalidade: Naturalidade) -> String {
-        var
+    func retornaInfo() {
+        print("O \(name) tem \(idade) anos e é \(orientacaoMotora) sua naturalidade é \(naturalidade) ")
     }
     
 }
+
+var brasileiro = Brasileiro(name: "Kaique", idade: 27, orientacaoMotora: .destro, naturalidade: .paulista)
+print(brasileiro)
+brasileiro.retornaInfo()
