@@ -160,3 +160,28 @@ class Brasileiro {
 var brasileiro = Brasileiro(name: "Kaique", idade: 27, orientacaoMotora: .destro, naturalidade: .paulista)
 print(brasileiro)
 brasileiro.retornaInfo()
+
+class Animal {
+    var name = String()
+    var idade : Int = 0
+}
+
+class Bird : Animal {
+    var asas = 0
+}
+
+class Galinha {
+    var patas = 0
+    
+}
+
+
+var papagaio = Bird()
+
+papagaio.name
+papagaio.idade
+papagaio.asas
+
+
+
+
