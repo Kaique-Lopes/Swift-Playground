@@ -112,3 +112,6 @@ var matrix = Movie(name: "Matrix", date: 1980)
 matrix.informations(name: matrix.name, date: matrix.date, dateLife: matrix.ageFilm)
 
 
+// MARK: - Structs
+
+
