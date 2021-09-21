@@ -123,3 +123,36 @@ print(laCasaDePapel.name)
 
 laCasaDePapelPirata.name = "La Casa de Papel Pirata"
 print(laCasaDePapelPirata.name)
+
+enum OrientaçãoMotora : String {
+    case destro = "Destro"
+    case canhoto = "Canhoto"
+}
+
+enum Naturalidade: String {
+    case paulista = "Paulista"
+    case carioca = "Carioca"
+    case baiano = "Baiano"
+    case cearense = "Cearense"
+    case acreano = "Acreano"
+}
+
+class Brasileiro {
+    var name = String()
+    var idade = Int()
+    var orientacaoMotora : OrientaçãoMotora
+    var naturalidade : Naturalidade
+    
+
+    init(name: String, idade: Int, orientacaoMotora: OrientaçãoMotora, naturalidade: Naturalidade) {
+        self.name = name
+        self.idade = idade
+        self.orientacaoMotora = orientacaoMotora
+        self.naturalidade = naturalidade
+    }
+    
+    func retornaInfo(name: String, idade: Int, orientaçãoMotora: OrientaçãoMotora, naturalidade: Naturalidade) -> String {
+        var
+    }
+    
+}
