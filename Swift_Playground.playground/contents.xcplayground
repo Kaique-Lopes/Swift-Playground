@@ -11,5 +11,6 @@
         <page name='For Loops'/>
         <page name='Functions'/>
         <page name='Optionals'/>
+        <page name='Enums'/>
     </pages>
 </playground>

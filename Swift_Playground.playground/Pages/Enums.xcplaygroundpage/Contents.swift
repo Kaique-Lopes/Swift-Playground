@@ -2,4 +2,9 @@
 
 import Foundation
 
-enum 
+enum RosaDosVentos {
+    case norte
+    case sul
+    case leste
+    case oeste
+}
