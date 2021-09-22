@@ -17,3 +17,14 @@ setDuplicated.popFirst()
 print(setDuplicated)
 setDuplicated.remove(3)
 print(setDuplicated)
+
+var timesSerieA = Set(["Corinthians", "Santos", "Palmeiras", "Flamengo"])
+var timesChampionsLeague = Set(["Real Madrid", "Bayern Munich", "Manchester City", "Manchester United", "Barcelona"])
+
+
+
+var superCopaTimesDoMundo = timesSerieA.union(timesChampionsLeague)
+
+timesSerieA.isDisjoint(with: timesChampionsLeague)
+
+print(superCopaTimesDoMundo)
