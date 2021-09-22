@@ -63,3 +63,9 @@ arrayExerc.contains("Kaique")
 arrayExerc.firstIndex(of: "Kaique")
 
 //: [Next](@next)
+var tweets: [String] = ["Tweet1", "Tweet2", "Tweet3", "Tweet4"]
+tweets.count
+tweets.append("Tweet5")
+tweets.insert("Tweet0", at: 0)
+var arrayAny: [Any] = [1, 2, "Kaka", 1.5, 1,9]
+
