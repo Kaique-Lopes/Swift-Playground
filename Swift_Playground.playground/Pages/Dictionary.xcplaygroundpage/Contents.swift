@@ -15,4 +15,5 @@ dictionary2["Number4"]
 dictionary2.updateValue(5, forKey: "Number5")
 print(dictionary2)
 
-
+dictionary2.removeValue(forKey: "Number5")
+print(dictionary2)
