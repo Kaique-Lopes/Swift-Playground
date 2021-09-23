@@ -144,4 +144,21 @@ if priceEuro >= 5 || priceEuro >= 15 {
 } else {
     print("Valor de Euro para revenda2")
 }
-//: [Next](@next)
+
+var humanAge = 23
+var isDrunk = false
+var hasDocument = true
+
+if isDrunk == true {
+    print("Voce não pode Dirigir!")
+} else if humanAge >= 18 && hasDocument{
+    print("Voce pode Dirigir!")
+} else {
+    print("Voce não pode dirigir!")
+}
+
+if humanAge >= 18 && !isDrunk && hasDocument {
+    print("Voce pode Dirigir")
+} else {
+    print("Voce não pode dirigir!")
+}
