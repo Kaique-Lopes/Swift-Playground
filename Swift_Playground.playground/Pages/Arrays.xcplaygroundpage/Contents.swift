@@ -69,3 +69,23 @@ tweets.append("Tweet5")
 tweets.insert("Tweet0", at: 0)
 var arrayAny: [Any] = [1, 2, "Kaka", 1.5, 1,9]
 
+
+
+
+var cars = ["Fusca", "Mustang", "Porsche", "Gol", "BMW"]
+var indexCars = 0
+
+for car in cars {
+    print(car)
+}
+
+var minutes = 60
+for minutes in 0..<minutes {
+    print(minutes)
+}
+
+
+while indexCars < cars.count {
+    print(cars[indexCars])
+    indexCars += 1
+}
