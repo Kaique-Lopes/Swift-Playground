@@ -80,7 +80,7 @@ for car in cars {
 }
 
 var minutes = 60
-for minutes in 0..<minutes {
+for minutes in 0...minutes {
     print(minutes)
 }
 
