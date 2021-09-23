@@ -224,6 +224,20 @@ class Login {
     }
 }
 
+class Person : Login {
+    var name : String
+    var age: Int
+    
+    init (name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+    
+    func showNameAge() -> String {
+        return "O nome da Pessoa é \(name) e ela tem a idade de \(age)"
+    }
+}
+
 var loginKaique = Login(user: "kaiquerox", password: 12345)
 var userKaique = loginKaique.user
 var passKaique = loginKaique.password
