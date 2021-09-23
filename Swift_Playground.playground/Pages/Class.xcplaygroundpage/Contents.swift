@@ -199,3 +199,15 @@ piriquito.descricao()
 var galo = Galinha()
 
 galo.descricao()
+
+
+class Login {
+    var user : String
+    var password : Int
+    
+//Inializer
+    init(user: String, password: Int) {
+        self.password = password
+        self.user = user
+    }
+}
