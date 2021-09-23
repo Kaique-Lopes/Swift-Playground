@@ -228,13 +228,18 @@ class Person : Login {
     var name : String
     var age: Int
     
-    init (name: String, age: Int) {
+    init (user: String, password: Int, name: String, age: Int) {
         self.name = name
         self.age = age
+        super.init(user: user, password: password)
     }
     
     func showNameAge() -> String {
         return "O nome da Pessoa é \(name) e ela tem a idade de \(age)"
+    }
+    
+    override func showUserPass() -> String {
+        return "\(user) e \(password) "
     }
 }
 
@@ -244,3 +249,5 @@ var passKaique = loginKaique.password
 print("O usuário é \(userKaique) e senha: \(passKaique)")
 loginKaique.showUserPass()
 loginKaique.loginValidate()
+var kaiquePerson = Person(user: "Kaka", password: 123456, name: "Kakaka", age: 27)
+kaiquePerson.showUserPass()
