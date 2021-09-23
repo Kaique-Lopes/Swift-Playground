@@ -218,10 +218,15 @@ class Login {
             print("Dados incorretos, verifique e tente novamente")
         }
     }
+    
+    func showUserPass() -> String {
+        return "O usuário é \(user) e a senha é \(password)"
+    }
 }
 
 var loginKaique = Login(user: "kaiquerox", password: 12345)
 var userKaique = loginKaique.user
 var passKaique = loginKaique.password
 print("O usuário é \(userKaique) e senha: \(passKaique)")
+loginKaique.showUserPass()
 loginKaique.loginValidate()
