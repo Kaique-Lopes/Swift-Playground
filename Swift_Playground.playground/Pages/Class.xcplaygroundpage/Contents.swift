@@ -210,4 +210,18 @@ class Login {
         self.password = password
         self.user = user
     }
+    
+    func loginValidate() {
+        if user == "kaiquerox" && password == 12345 {
+            print("Login Efetuado com Sucesso")
+        } else {
+            print("Dados incorretos, verifique e tente novamente")
+        }
+    }
 }
+
+var loginKaique = Login(user: "kaiquerox", password: 12345)
+var userKaique = loginKaique.user
+var passKaique = loginKaique.password
+print("O usuário é \(userKaique) e senha: \(passKaique)")
+loginKaique.loginValidate()
