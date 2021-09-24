@@ -251,3 +251,15 @@ loginKaique.showUserPass()
 loginKaique.loginValidate()
 var kaiquePerson = Person(user: "Kaka", password: 123456, name: "Kakaka", age: 27)
 kaiquePerson.showUserPass()
+
+
+class Customer {
+    var name: String
+    var age: Int
+    var sex: String = "Não informado"
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+}
