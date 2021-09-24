@@ -263,3 +263,6 @@ class Customer {
         self.age = age
     }
 }
+
+var newCustomer = Customer(name: "asda", age: 1)
+newCustomer.sex
