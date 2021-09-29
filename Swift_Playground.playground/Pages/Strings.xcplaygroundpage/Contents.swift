@@ -2,6 +2,7 @@ import UIKit
 // MARK: - Variaveis
 
 var name = "Kaique Lopes"
+var name2: String = "Kaka"
 var lastName = "Oliveira"
 var age = 27
 var nameVar = "Kaique"
