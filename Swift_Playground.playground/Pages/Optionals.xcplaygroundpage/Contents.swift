@@ -46,3 +46,10 @@ func multOptionals(a: Int?, b: Int) {
 multOptionals(a: numOptionals, b: numOptionals2)
 
 //: [Next](@next)
+var rg: Int = 4249420213
+var carteiraMotorista: Int?
+carteiraMotorista = 55555
+
+if let carteira = carteiraMotorista {
+    print(carteira)
+}
