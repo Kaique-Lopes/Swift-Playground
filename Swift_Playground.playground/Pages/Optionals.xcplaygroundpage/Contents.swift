@@ -50,6 +50,16 @@ var rg: Int = 4249420213
 var carteiraMotorista: Int?
 carteiraMotorista = 55555
 
+// MARK: - Optional Binding
 if let carteira = carteiraMotorista {
     print(carteira)
+}
+
+let name: String?
+name = "Kaique"
+
+if name != nil {
+    print(name)
+} else {
+    print("Não possui valor")
 }
